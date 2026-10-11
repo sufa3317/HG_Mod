@@ -53,6 +53,7 @@
 
 ## 🖥️ 设置入口（两处同步）
 - **红果内**：「我的 → 设置 → 白果助手」
+- **也可以设置长按我的打开**
 - **桌面**：桌面图标 / LSPosed 模块入口
 - **配置路径**（`/sdcard/Android/media/com.phoenix.read/hgdj_mod.conf`）
 
