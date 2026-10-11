@@ -8,8 +8,6 @@
 
 ---
 
-## ✨ 功能详解（v3.0 · code 300）
-
 ### 1) 🚫 去除视频流广告
 - 拦截**短剧贴片广告**（配置层 + 展示层双层策略，日志可分辨是哪层拦下）
 - 拦截**电商卡片 / 购物 Feed / 一站式短剧广告**
@@ -77,19 +75,8 @@
 2. 安装本模块 APK → 框架里**启用模块** → 作用域勾选【红果免费短剧】。
 3. **强行停止红果 → 重新打开**，进短剧播放页同意使用协议、等待适配完成即可。
 
-## 🛠️ 构建
-需要 Android SDK 工具链（`javac` + `d8` + `aapt2` + `apksigner`），运行：
-
-```bash
-git clone <repo-url>
-cd <repo>
-./build.sh        # 或直接跑 assembleDebug（默认输出 APK）
-```
-
 - 包名：`com.hgdj.mod`
 - 框架：libxposed（minApiVersion 100 / targetApiVersion 102）
-- 版本：`versionName=3.0`，`versionCode=300` 
-
 ## 📄 免责声明
 本项目仅用于**学习交流与技术研究**，不提供任何形式的担保。
 
